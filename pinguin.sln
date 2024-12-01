@@ -1,6 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pinguin", "Pinguin\Pinguin.csproj", "{07C20ADA-1B2C-41A1-81D6-0C7FEE223475}"
+# 
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pinguin.Maui", "Pinguin.Maui\Pinguin.Maui.csproj", "{C5F3457F-E8DD-4A0E-8752-DD96EDDA8E44}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -8,9 +9,9 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{07C20ADA-1B2C-41A1-81D6-0C7FEE223475}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{07C20ADA-1B2C-41A1-81D6-0C7FEE223475}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{07C20ADA-1B2C-41A1-81D6-0C7FEE223475}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{07C20ADA-1B2C-41A1-81D6-0C7FEE223475}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5F3457F-E8DD-4A0E-8752-DD96EDDA8E44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5F3457F-E8DD-4A0E-8752-DD96EDDA8E44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5F3457F-E8DD-4A0E-8752-DD96EDDA8E44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5F3457F-E8DD-4A0E-8752-DD96EDDA8E44}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
