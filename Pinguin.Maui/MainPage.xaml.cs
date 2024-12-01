@@ -1,4 +1,6 @@
-﻿namespace Pinguin.Maui;
+﻿using Monitor = Pinguin.Domain.Monitor;
+
+namespace Pinguin.Maui;
 
 public partial class MainPage : ContentPage
 {
@@ -11,6 +13,7 @@ public partial class MainPage : ContentPage
 
 	private void OnCounterClicked(object sender, EventArgs e)
 	{
+		var m = new Monitor();
 		count++;
 
 		if (count == 1)

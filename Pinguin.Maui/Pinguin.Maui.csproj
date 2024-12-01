@@ -64,4 +64,9 @@
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="9.0.0" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <ProjectReference Include="..\Pinguin.Application\Pinguin.Application.csproj" />
+	  <ProjectReference Include="..\Pinguin.Sqlite\Pinguin.Sqlite.csproj" />
+	</ItemGroup>
+
 </Project>
