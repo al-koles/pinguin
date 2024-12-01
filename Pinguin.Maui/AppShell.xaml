@@ -1,15 +1,21 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+
 <Shell
     x:Class="Pinguin.Maui.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:local="clr-namespace:Pinguin.Maui"
+    xmlns:views="clr-namespace:Pinguin.Maui.Views"
     Shell.FlyoutBehavior="Flyout"
     Title="Pinguin.Maui">
 
     <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+        Title="Pingers"
+        ContentTemplate="{DataTemplate views:PingersPage}"
+        Route="Pingers" />
+
+    <ShellContent
+        Title="Create new"
+        ContentTemplate="{DataTemplate views:EditPingerPage}"
+        Route="CreatePinger" />
 
 </Shell>
